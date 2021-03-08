@@ -64,4 +64,3 @@ elif idade < 65 and infecto_Doenca == "NAO":
 else:
     print("Responda a suspeita de doença infectocontagiosa com SIM ou NAO")
 
-#Oh jao, agora que eu lembrei. Vc ta ai ainda?

@@ -30,7 +30,7 @@ print("A média da mensalidade é de: " + str(mediaMensalidade))
 
 nome = input("Digite um Funcionário: ")
 empresa = input("Digite a instituição: ")
-qtd_Funcionarios= int(input("Digite a quantidade dos Funcionários: "))
+qtd_Funcionarios = int(input("Digite a quantidade dos Funcionários: "))
 media_Mensalidade = float(input("Digite a média da Mensalidade: "))
 print(nome + " trabalha na empresa " + empresa)
 print("Possui: ", qtd_Funcionarios, " Funcionários.")
