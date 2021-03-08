@@ -12,6 +12,7 @@ código
 
 #------------------- Declarando as primeiras variáveis
 
+'''
 #conteudo com aspas = String (texto)
 nome = "Nicolas Carvalho"
 empresa = 'Trinity'
@@ -26,8 +27,9 @@ mediaMensalidade = 4500.24
 print(nome + " trabalha na empresa " + empresa)
 print("Possui: ", qtd_Funcionarios, " Funcionários")
 print("A média da mensalidade é de: " + str(mediaMensalidade))
+'''
 
-
+'''
 nome = input("Digite um Funcionário: ")
 empresa = input("Digite a instituição: ")
 qtd_Funcionarios = int(input("Digite a quantidade dos Funcionários: "))
@@ -35,7 +37,7 @@ media_Mensalidade = float(input("Digite a média da Mensalidade: "))
 print(nome + " trabalha na empresa " + empresa)
 print("Possui: ", qtd_Funcionarios, " Funcionários.")
 print("A média da mensalidade é de: " + str(media_Mensalidade))
-
+'''
 
 nome = input("Digite um funcionário: ")
 empresa = input("Digite a instituição: ")

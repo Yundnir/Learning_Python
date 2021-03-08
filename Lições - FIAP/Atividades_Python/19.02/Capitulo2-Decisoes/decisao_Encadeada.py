@@ -43,21 +43,21 @@ else:
 
 #SEGUNDO PROBLEMA A SER RESOLVIDO
 if idade >= 65:
-    print("Paciente COM prioridade.")
+    print("Paciente POSSUI prioridade.")
 
 else:
     genero = input("Digite o gênero do paciente: ").upper()
 
     if genero == "FEMININO" and idade > 10:
-        gravidez = input("A paciente está grávida? ").upper()
+        gravidez = input("A Paciente está grávida? ").upper()
 
         if gravidez == "SIM":
-            print("Paciente " + nome + " COM prioridade!")
+            print("A Paciente " + nome + " POSSUI prioridade!")
 
         else:
-            print("Paciente " + nome + " SEM prioridade.")
+            print("A Paciente " + nome + " NÃO POSSUI prioridade.")
 
     else:
-        print("Paciente " + nome + " SEM prioridade.")
+        print("O Paciente " + nome + " NÃO POSSUI prioridade.")
 
 
